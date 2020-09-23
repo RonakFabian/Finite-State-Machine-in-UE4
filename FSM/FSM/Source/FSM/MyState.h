@@ -5,12 +5,10 @@
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "MyStateMachineBehaviour.h"
-#include  "LightBulb.h"
 #include "MyState.generated.h"
 
-/**
- * 
- */
+
+
 UCLASS()
 class FSM_API UMyState : public UObject
 {
@@ -22,11 +20,11 @@ public:
     UMyStateMachineBehaviour* StateMachineBehaviour;
 
     UPROPERTY()
-    ALightBulb* LightBulb;
+    AActor* Owner;
 
     UMyState();
 
-     virtual void Set(ALightBulb* Bulb, UMyStateMachineBehaviour* State);
+     virtual void Set(AActor* , UMyStateMachineBehaviour* );
 
     virtual void Enter_State();
     virtual void Update_State();

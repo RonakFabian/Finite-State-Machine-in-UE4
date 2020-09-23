@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeMyState() {}
 	FSM_API UClass* Z_Construct_UClass_UMyState();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
 	UPackage* Z_Construct_UPackage__Script_FSM();
-	FSM_API UClass* Z_Construct_UClass_ALightBulb_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	FSM_API UClass* Z_Construct_UClass_UMyStateMachineBehaviour_NoRegister();
 // End Cross Module References
 	void UMyState::StaticRegisterNativesUMyState()
@@ -34,9 +34,9 @@ void EmptyLinkFunctionForGeneratedCodeMyState() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LightBulb_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Owner_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LightBulb;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Owner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StateMachineBehaviour_MetaData[];
 #endif
@@ -51,17 +51,16 @@ void EmptyLinkFunctionForGeneratedCodeMyState() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyState_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "MyState.h" },
 		{ "ModuleRelativePath", "MyState.h" },
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyState_Statics::NewProp_LightBulb_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyState_Statics::NewProp_Owner_MetaData[] = {
 		{ "ModuleRelativePath", "MyState.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyState_Statics::NewProp_LightBulb = { "LightBulb", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyState, LightBulb), Z_Construct_UClass_ALightBulb_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyState_Statics::NewProp_LightBulb_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyState_Statics::NewProp_LightBulb_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyState_Statics::NewProp_Owner = { "Owner", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyState, Owner), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyState_Statics::NewProp_Owner_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyState_Statics::NewProp_Owner_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMyState_Statics::NewProp_StateMachineBehaviour_MetaData[] = {
 		{ "ModuleRelativePath", "MyState.h" },
@@ -69,7 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeMyState() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyState_Statics::NewProp_StateMachineBehaviour = { "StateMachineBehaviour", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyState, StateMachineBehaviour), Z_Construct_UClass_UMyStateMachineBehaviour_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyState_Statics::NewProp_StateMachineBehaviour_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyState_Statics::NewProp_StateMachineBehaviour_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyState_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyState_Statics::NewProp_LightBulb,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyState_Statics::NewProp_Owner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyState_Statics::NewProp_StateMachineBehaviour,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UMyState_Statics::StaticCppClassTypeInfo = {
@@ -99,7 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeMyState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyState, 3225479537);
+	IMPLEMENT_CLASS(UMyState, 4006552135);
 	template<> FSM_API UClass* StaticClass<UMyState>()
 	{
 		return UMyState::StaticClass();

@@ -5,9 +5,9 @@
 #include "LightBulb.h"
 
 
-void USwitchOnState::Set(ALightBulb* Bulb, UMyStateMachineBehaviour* State)
+void USwitchOnState::Set(AActor* OwningActor, UMyStateMachineBehaviour* State)
 {
-    Super::Set(Bulb, State);
+    Super::Set(OwningActor, State);
 }
 
 USwitchOnState::USwitchOnState()
@@ -20,7 +20,7 @@ void USwitchOnState::Enter_State()
 {
     Super::Enter_State();
     UE_LOG(LogTemp, Warning, TEXT(" Switch ON Enter_State"));
-    auto Light = LightBulb->FindComponentByClass<UPointLightComponent>();
+    auto Light = Owner->FindComponentByClass<UPointLightComponent>();
 
     if (ensure(Light))
     {

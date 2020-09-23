@@ -5,9 +5,9 @@
 #include "LightBulb.h"
 
 
-void USwitchOffState::Set(ALightBulb* Bulb, UMyStateMachineBehaviour* State)
+void USwitchOffState::Set(AActor* OwningActor, UMyStateMachineBehaviour* State)
 {
-    Super::Set(Bulb, State);
+    Super::Set(OwningActor, State);
 }
 
 USwitchOffState::USwitchOffState()
@@ -18,7 +18,7 @@ void USwitchOffState::Enter_State()
 {
     Super::Enter_State();
     UE_LOG(LogTemp, Warning, TEXT(" Switch OFF Enter_State"));
-    auto Light = LightBulb->FindComponentByClass<UPointLightComponent>();
+    auto Light = Owner->FindComponentByClass<UPointLightComponent>();
 
     if (ensure(Light))
     {

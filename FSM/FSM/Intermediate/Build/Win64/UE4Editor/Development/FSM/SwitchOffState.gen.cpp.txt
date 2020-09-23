@@ -9,11 +9,7 @@ E:\UE_4.24\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
 E:\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
 E:\FSM\Finite-State-Machine-in-UE4\FSM\FSM\Source\FSM\MyStateMachineBehaviour.h
 E:\FSM\Finite-State-Machine-in-UE4\FSM\FSM\Intermediate\Build\Win64\UE4Editor\Inc\FSM\MyStateMachineBehaviour.generated.h
-E:\FSM\Finite-State-Machine-in-UE4\FSM\FSM\Source\FSM\LightBulb.h
-E:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/PointLight.h
-E:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Light.h
-E:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Light.generated.h
-E:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PointLight.generated.h
+E:\FSM\Finite-State-Machine-in-UE4\FSM\FSM\Intermediate\Build\Win64\UE4Editor\Inc\FSM\MyState.generated.h
 E:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/PointLightComponent.h
 E:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/LocalLightComponent.h
 E:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/LightComponent.h
@@ -22,6 +18,4 @@ E:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LightComponentBa
 E:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LightComponent.generated.h
 E:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LocalLightComponent.generated.h
 E:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PointLightComponent.generated.h
-E:\FSM\Finite-State-Machine-in-UE4\FSM\FSM\Intermediate\Build\Win64\UE4Editor\Inc\FSM\LightBulb.generated.h
-E:\FSM\Finite-State-Machine-in-UE4\FSM\FSM\Intermediate\Build\Win64\UE4Editor\Inc\FSM\MyState.generated.h
 E:\FSM\Finite-State-Machine-in-UE4\FSM\FSM\Intermediate\Build\Win64\UE4Editor\Inc\FSM\SwitchOffState.generated.h

@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeSwitchOffState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USwitchOffState, 1460151428);
+	IMPLEMENT_CLASS(USwitchOffState, 588933746);
 	template<> FSM_API UClass* StaticClass<USwitchOffState>()
 	{
 		return USwitchOffState::StaticClass();

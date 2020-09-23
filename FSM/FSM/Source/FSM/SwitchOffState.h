@@ -15,7 +15,7 @@ class FSM_API USwitchOffState : public UMyState
 {
 	GENERATED_BODY()
 	public:
-	virtual void Set(ALightBulb* Bulb, UMyStateMachineBehaviour* State) override;
+	virtual void Set(AActor* , UMyStateMachineBehaviour* ) override;
     
 	protected:
     

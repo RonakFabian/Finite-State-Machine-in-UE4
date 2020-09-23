@@ -8,9 +8,9 @@ UMyState::UMyState()
    
 }
 
-void UMyState::Set(ALightBulb* Bulb, UMyStateMachineBehaviour* State)
+void UMyState::Set(AActor* OwningActor, UMyStateMachineBehaviour* State)
 {
-    this->LightBulb=Bulb;
+    this->Owner=OwningActor;
     this->StateMachineBehaviour=State;
 }
 
