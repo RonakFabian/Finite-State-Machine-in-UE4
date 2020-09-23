@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\FSM\\Finite-State-Machine-in-UE4\\FSM\\FSM\\Source\\FSM\\FSM.Build.cs",
+		"E:\\FSM\\Finite-State-Machine-in-UE4\\FSM\\FSM\\Source\\FSM.Target.cs",
+		"E:\\FSM\\Finite-State-Machine-in-UE4\\FSM\\FSM\\Source\\FSMEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.3"
+}

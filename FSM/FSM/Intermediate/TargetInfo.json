@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FSM",
+			"Path": "E:\\FSM\\Finite-State-Machine-in-UE4\\FSM\\FSM\\Source\\FSM.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FSMEditor",
+			"Path": "E:\\FSM\\Finite-State-Machine-in-UE4\\FSM\\FSM\\Source\\FSMEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
