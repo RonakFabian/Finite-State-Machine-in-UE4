@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyStateMachineBehaviour); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMyStateMachineBehaviour)
 
 
-#define FSM_Source_FSM_MyStateMachineBehaviour_h_17_PRIVATE_PROPERTY_OFFSET
+#define FSM_Source_FSM_MyStateMachineBehaviour_h_17_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CurrentState() { return STRUCT_OFFSET(UMyStateMachineBehaviour, CurrentState); }
+
+
 #define FSM_Source_FSM_MyStateMachineBehaviour_h_14_PROLOG
 #define FSM_Source_FSM_MyStateMachineBehaviour_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

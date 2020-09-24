@@ -9,18 +9,18 @@
 /**
  * 
  */
-class ALightBulb;
+
 UCLASS()
 class FSM_API USwitchOnState : public UMyState
 {
     GENERATED_BODY()
-    public:
-    virtual void Set(AActor* , UMyStateMachineBehaviour* ) override;
-    
+public:
+    virtual void Set(AActor*, UMyStateMachineBehaviour*) override;
+
 protected:
-    
+
     USwitchOnState();
-  
+
 
     virtual void Enter_State() override;
     virtual void Update_State() override;

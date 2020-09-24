@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FSM_MyState_generated_h
 
-#define FSM_Source_FSM_MyState_h_15_SPARSE_DATA
-#define FSM_Source_FSM_MyState_h_15_RPC_WRAPPERS
-#define FSM_Source_FSM_MyState_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define FSM_Source_FSM_MyState_h_15_INCLASS_NO_PURE_DECLS \
+#define FSM_Source_FSM_MyState_h_12_SPARSE_DATA
+#define FSM_Source_FSM_MyState_h_12_RPC_WRAPPERS
+#define FSM_Source_FSM_MyState_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FSM_Source_FSM_MyState_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMyState(); \
 	friend struct Z_Construct_UClass_UMyState_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(UMyState)
 
 
-#define FSM_Source_FSM_MyState_h_15_INCLASS \
+#define FSM_Source_FSM_MyState_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesUMyState(); \
 	friend struct Z_Construct_UClass_UMyState_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UMyState)
 
 
-#define FSM_Source_FSM_MyState_h_15_STANDARD_CONSTRUCTORS \
+#define FSM_Source_FSM_MyState_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMyState(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMyState) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define FSM_Source_FSM_MyState_h_15_ENHANCED_CONSTRUCTORS \
+#define FSM_Source_FSM_MyState_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UMyState(UMyState&&); \
@@ -58,28 +58,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMyState); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMyState)
 
 
-#define FSM_Source_FSM_MyState_h_15_PRIVATE_PROPERTY_OFFSET
-#define FSM_Source_FSM_MyState_h_12_PROLOG
-#define FSM_Source_FSM_MyState_h_15_GENERATED_BODY_LEGACY \
+#define FSM_Source_FSM_MyState_h_12_PRIVATE_PROPERTY_OFFSET
+#define FSM_Source_FSM_MyState_h_9_PROLOG
+#define FSM_Source_FSM_MyState_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FSM_Source_FSM_MyState_h_15_PRIVATE_PROPERTY_OFFSET \
-	FSM_Source_FSM_MyState_h_15_SPARSE_DATA \
-	FSM_Source_FSM_MyState_h_15_RPC_WRAPPERS \
-	FSM_Source_FSM_MyState_h_15_INCLASS \
-	FSM_Source_FSM_MyState_h_15_STANDARD_CONSTRUCTORS \
+	FSM_Source_FSM_MyState_h_12_PRIVATE_PROPERTY_OFFSET \
+	FSM_Source_FSM_MyState_h_12_SPARSE_DATA \
+	FSM_Source_FSM_MyState_h_12_RPC_WRAPPERS \
+	FSM_Source_FSM_MyState_h_12_INCLASS \
+	FSM_Source_FSM_MyState_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FSM_Source_FSM_MyState_h_15_GENERATED_BODY \
+#define FSM_Source_FSM_MyState_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FSM_Source_FSM_MyState_h_15_PRIVATE_PROPERTY_OFFSET \
-	FSM_Source_FSM_MyState_h_15_SPARSE_DATA \
-	FSM_Source_FSM_MyState_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FSM_Source_FSM_MyState_h_15_INCLASS_NO_PURE_DECLS \
-	FSM_Source_FSM_MyState_h_15_ENHANCED_CONSTRUCTORS \
+	FSM_Source_FSM_MyState_h_12_PRIVATE_PROPERTY_OFFSET \
+	FSM_Source_FSM_MyState_h_12_SPARSE_DATA \
+	FSM_Source_FSM_MyState_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FSM_Source_FSM_MyState_h_12_INCLASS_NO_PURE_DECLS \
+	FSM_Source_FSM_MyState_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

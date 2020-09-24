@@ -7,24 +7,19 @@
 #include "SwitchOffState.h"
 
 
-// Sets default values
 ALightBulb::ALightBulb()
 {
-    // Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
     PrimaryActorTick.bCanEverTick = true;
-    Switch_On_State = nullptr;
+
     PointLightComponent = CreateDefaultSubobject<UPointLightComponent>(TEXT("PointLight"));
     PointLightComponent->SetupAttachment(RootComponent);
-    PointLightComponent->SetMobility(EComponentMobility::Movable);
-    UE_LOG(LogTemp, Warning, TEXT("Bool value is: %i"), PointLightComponent->IsComponentTickEnabled());
-    //	Switch_Off_State=nullptr;
-    PointLightComponent->SetComponentTickEnabled(true);
 }
 
-// Called when the game starts or when spawned
 void ALightBulb::BeginPlay()
 {
     Super::BeginPlay();
+
+    //Create a FSM and adding States into it and passing the owning AActor and UMyStateMachineBehaviour reference
     MyStateMachineBehaviour = NewObject<UMyStateMachineBehaviour>(this, UMyStateMachineBehaviour::StaticClass());
 
     Switch_On_State = NewObject<USwitchOnState>(this, USwitchOnState::StaticClass());
@@ -33,10 +28,10 @@ void ALightBulb::BeginPlay()
     Switch_Off_State = NewObject<USwitchOffState>(this, USwitchOffState::StaticClass());
     Switch_Off_State->Set(this, MyStateMachineBehaviour);
 
-    MyStateMachineBehaviour->Init(Switch_Off_State);
+    //Setting Initial state to Switch Off State
+    MyStateMachineBehaviour->Init(Switch_On_State);
 }
 
-// Called every frame
 void ALightBulb::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
@@ -45,10 +40,8 @@ void ALightBulb::Tick(float DeltaTime)
 void ALightBulb::ToggleState()
 {
     isON = !isON;
-    if (isON)
-    {
-        MyStateMachineBehaviour->ChangeState(Switch_On_State);
-    }
-    else
-        MyStateMachineBehaviour->ChangeState(Switch_Off_State);
+
+    isON
+        ? MyStateMachineBehaviour->ChangeState(Switch_On_State)
+        : MyStateMachineBehaviour->ChangeState(Switch_Off_State);
 }

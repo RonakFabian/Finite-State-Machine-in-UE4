@@ -1,12 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "MyStateMachineBehaviour.h"
 #include "MyState.generated.h"
-
 
 
 UCLASS()
@@ -24,9 +21,11 @@ public:
 
     UMyState();
 
-     virtual void Set(AActor* , UMyStateMachineBehaviour* );
+    virtual void Set(AActor*, UMyStateMachineBehaviour*);
 
-    virtual void Enter_State();
-    virtual void Update_State();
+    virtual void Enter_State() ;
+    virtual void Update_State() ;
     virtual void Exit_State();
+
+    // Add extra states here i.e logic, input updates
 };

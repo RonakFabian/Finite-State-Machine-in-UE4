@@ -3,6 +3,7 @@
 
 #include "SwitchOnState.h"
 #include "LightBulb.h"
+#include "Components/PointLightComponent.h"
 
 
 void USwitchOnState::Set(AActor* OwningActor, UMyStateMachineBehaviour* State)
@@ -10,11 +11,7 @@ void USwitchOnState::Set(AActor* OwningActor, UMyStateMachineBehaviour* State)
     Super::Set(OwningActor, State);
 }
 
-USwitchOnState::USwitchOnState()
-{
-}
-
-
+USwitchOnState::USwitchOnState() = default;
 
 void USwitchOnState::Enter_State()
 {
@@ -25,9 +22,7 @@ void USwitchOnState::Enter_State()
     if (ensure(Light))
     {
         Light->ToggleVisibility();
-        
         UE_LOG(LogTemp, Warning, TEXT("ON"));
-
     }
 }
 

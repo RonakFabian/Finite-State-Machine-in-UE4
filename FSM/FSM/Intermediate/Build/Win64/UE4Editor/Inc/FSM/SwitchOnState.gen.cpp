@@ -40,6 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeSwitchOnState() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USwitchOnState_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "SwitchOnState.h" },
 		{ "ModuleRelativePath", "SwitchOnState.h" },
 	};
@@ -71,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeSwitchOnState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USwitchOnState, 2405909266);
+	IMPLEMENT_CLASS(USwitchOnState, 1378872864);
 	template<> FSM_API UClass* StaticClass<USwitchOnState>()
 	{
 		return USwitchOnState::StaticClass();

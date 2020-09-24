@@ -23,42 +23,133 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c6e738e-a212-4e9f-b83c-4f01ac94ea35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-1264.dll.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-1264.lib.response" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-1264.suppressed.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto2.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Backup/FirstPersonExampleMap_2020-09-24-00-49-20.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Backup/FirstPersonExampleMap_BuiltData_2020-09-24-00-49-20.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-1A4B0E0748506A1E5E741B9D00349E9C/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-96A784FD499551A045C7038E277A321D/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/FSM-backup-2020.09.23-11.09.36.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/FSM-backup-2020.09.23-19.09.36.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-FSM-0016.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-FSM-0113.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-FSM-0933.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-FSM-4525.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-FSM-4560.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-FSM-4858.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-FSM-6173.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-FSM-8042.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-FSM-9164.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-FSM-9848.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/MyLightBulb_Bp.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Level/FSM_Demo.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0016.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0016.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0016.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0016.suppressed.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0113.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0113.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0113.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0113.suppressed.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0488.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0488.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0933.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0933.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0933.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0933.suppressed.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0992.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-0992.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-1408.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-1408.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-2489.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-2489.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-4525.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-4525.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-4525.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-4525.suppressed.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-4560.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-4560.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-4560.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-4560.suppressed.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-4858.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-4858.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-4858.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-4858.suppressed.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-6173.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-6173.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-6173.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-6173.suppressed.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-8042.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-8042.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-8042.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-8042.suppressed.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-9164.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-9164.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-9164.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-9164.suppressed.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-9848.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-9848.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-9848.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/UE4Editor-FSM-9848.suppressed.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Game.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Config/CoalescedSourceConfigs/Lightmass.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/FSM_Demo_2020-09-24-20-17-16.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/FSM_Demo_BuiltData_2020-09-24-20-17-34.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/FirstPersonExampleMap_2020-09-24-01-31-53.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/FirstPersonExampleMap_2020-09-24-20-05-51.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/FirstPersonExampleMap_BuiltData_2020-09-24-01-31-53.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/FirstPersonExampleMap_BuiltData_2020-09-24-20-05-52.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Backup/MyLightBulb_Bp_2020-09-24-20-05-49.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-2675876547664C22E980368FAEB8D278/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-3FA4225E42540AA5E9FC0FB50F1BC0C0/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-78BA87524175836CC04BC8AA90B16C05/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/WorldState/3375467643.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-2675876547664C22E980368FAEB8D278_0001/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-2675876547664C22E980368FAEB8D278_0001/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-2675876547664C22E980368FAEB8D278_0001/FSM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-2675876547664C22E980368FAEB8D278_0001/UE4Minidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-3FA4225E42540AA5E9FC0FB50F1BC0C0_0001/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-3FA4225E42540AA5E9FC0FB50F1BC0C0_0001/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-3FA4225E42540AA5E9FC0FB50F1BC0C0_0001/FSM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-3FA4225E42540AA5E9FC0FB50F1BC0C0_0001/UE4Minidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-A183453C4357DBC4CC818CBC92D78E9C_0001/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-A183453C4357DBC4CC818CBC92D78E9C_0001/FSM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-A183453C4357DBC4CC818CBC92D78E9C_0001/UE4Minidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-BAD2B50640B4F40EAA06A8B9D8652CB2_0001/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-BAD2B50640B4F40EAA06A8B9D8652CB2_0001/FSM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UE4CC-Windows-BAD2B50640B4F40EAA06A8B9D8652CB2_0001/UE4Minidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/FSM-backup-2020.09.23-20.05.46.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/FSM-backup-2020.09.24-14.49.50.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/FSM-backup-2020.09.24-14.50.10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/FSM_2-backup-2020.09.23-10.18.22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/FSM_2-backup-2020.09.24-14.52.04.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/FSM_2-backup-2020.09.24-14.53.30.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MyLightBulb_Bp.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MyLightBulb_Bp.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/FSMEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/FSMEditor/Development/DependencyCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/FSMEditor/Development/FSMEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/FSMEditor/Development/FSMEditor.uhtmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/FSMEditor/Development/HotReload.state" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/FSMEditor/Development/HotReload.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/FSMEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/FSMEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/FSMEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/FSMEditor/Development/Metadata-HotReload.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/MyState.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/MyState.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/MyState.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/MyState.gen.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/MyStateMachineBehaviour.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/MyStateMachineBehaviour.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/SwitchOffState.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/SwitchOffState.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/SwitchOffState.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/SwitchOffState.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/LightBulb.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/LightBulb.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/LightBulb.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/LightBulb.gen.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/SwitchOnState.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/SwitchOnState.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/SwitchOnState.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/FSM/SwitchOnState.gen.cpp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/FSM.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/FSM.init.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/MyState.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/MyState.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/MyState.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/MyState.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/SwitchOffState.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/SwitchOffState.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/MyStateMachineBehaviour.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/MyStateMachineBehaviour.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/MyStateMachineBehaviour.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/MyStateMachineBehaviour.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/SwitchOnState.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/SwitchOnState.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FSM/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/Win64/FSMEditor/ActionHistory.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/Win64/FSMEditor/ActionHistory.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WorldState/412261283.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WorldState/412261283.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/FSM.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/FSM.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/FSM_2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/FSM_2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FSM/LightBulb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FSM/LightBulb.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FSM/LightBulb.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FSM/LightBulb.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/FSM/MyState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FSM/MyState.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/FSM/MyState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FSM/MyState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FSM/MyStateMachineBehaviour.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FSM/MyStateMachineBehaviour.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FSM/MyStateMachineBehaviour.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FSM/MyStateMachineBehaviour.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/FSM/SwitchOffState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FSM/SwitchOffState.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/FSM/SwitchOffState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FSM/SwitchOffState.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/FSM/SwitchOnState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FSM/SwitchOnState.cpp" afterDir="false" />
@@ -75,14 +166,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Source/FSM/SwitchOnState.h" />
+        <option value="$PROJECT_DIR$/Source/FSM/SwitchOffState.h" />
+        <option value="$PROJECT_DIR$/Source/FSM/SwitchOffState.cpp" />
+        <option value="$PROJECT_DIR$/Source/FSM/LightBulb.h" />
+        <option value="$PROJECT_DIR$/Source/FSM/SwitchOnState.cpp" />
+        <option value="$PROJECT_DIR$/Source/FSM/MyStateMachineBehaviour.cpp" />
         <option value="$PROJECT_DIR$/Source/FSM/MyStateMachineBehaviour.h" />
         <option value="$PROJECT_DIR$/Source/FSM/LightBulb.cpp" />
         <option value="$PROJECT_DIR$/Source/FSM/MyState.h" />
         <option value="$PROJECT_DIR$/Source/FSM/MyState.cpp" />
-        <option value="$PROJECT_DIR$/Source/FSM/SwitchOffState.h" />
-        <option value="$PROJECT_DIR$/Source/FSM/SwitchOffState.cpp" />
-        <option value="$PROJECT_DIR$/Source/FSM/SwitchOnState.h" />
-        <option value="$PROJECT_DIR$/Source/FSM/SwitchOnState.cpp" />
       </list>
     </option>
   </component>
@@ -277,7 +370,8 @@
       <workItem from="1600856354973" duration="56000" />
       <workItem from="1600856433062" duration="271000" />
       <workItem from="1600856753296" duration="1935000" />
-      <workItem from="1600887169114" duration="1706000" />
+      <workItem from="1600887169114" duration="4357000" />
+      <workItem from="1600959092414" duration="653000" />
     </task>
     <servers />
   </component>
@@ -301,5 +395,11 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="616" y="270" key="run.anything.popup" timestamp="1600890949218">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1600890949218" />
   </component>
 </project>

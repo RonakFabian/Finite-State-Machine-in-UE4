@@ -15,18 +15,17 @@ UCLASS()
 class FSM_API UMyStateMachineBehaviour : public UObject
 {
     GENERATED_BODY()
+    
+private:
+    UPROPERTY()
+    UMyState* CurrentState = nullptr;
 
 public:
     UMyStateMachineBehaviour();
 
-    UPROPERTY()
-    UMyState* CurrentState=nullptr;
-
-
-   
 
     void Init(UMyState* initState);
     void ChangeState(UMyState* newState);
 
-   // FORCEINLINE UMyState* GetCurrentState() const { return CurrentState; }
+    FORCEINLINE UMyState* GetCurrentState() const { return CurrentState; }
 };

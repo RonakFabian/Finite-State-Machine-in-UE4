@@ -17,7 +17,6 @@ void UMyStateMachineBehaviour::Init(UMyState* initState)
     {
         CurrentState = initState;
         CurrentState->Enter_State();
-
     }
 }
 

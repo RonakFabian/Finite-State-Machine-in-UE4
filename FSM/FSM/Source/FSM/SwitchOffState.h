@@ -13,17 +13,16 @@
 UCLASS()
 class FSM_API USwitchOffState : public UMyState
 {
-	GENERATED_BODY()
-	public:
-	virtual void Set(AActor* , UMyStateMachineBehaviour* ) override;
-    
-	protected:
-    
-	USwitchOffState();
-  
+    GENERATED_BODY()
+public:
+    virtual void Set(AActor*, UMyStateMachineBehaviour*) override;
 
-	virtual void Enter_State() override;
-	virtual void Update_State() override;
-	virtual void Exit_State() override;
-	
+protected:
+
+    USwitchOffState();
+
+
+    virtual void Enter_State() override;
+    virtual void Update_State() override;
+    virtual void Exit_State() override;
 };

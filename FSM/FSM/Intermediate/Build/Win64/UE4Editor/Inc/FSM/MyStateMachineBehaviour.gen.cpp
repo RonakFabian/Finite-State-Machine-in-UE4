@@ -56,7 +56,7 @@ void EmptyLinkFunctionForGeneratedCodeMyStateMachineBehaviour() {}
 		{ "ModuleRelativePath", "MyStateMachineBehaviour.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyStateMachineBehaviour_Statics::NewProp_CurrentState = { "CurrentState", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyStateMachineBehaviour, CurrentState), Z_Construct_UClass_UMyState_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyStateMachineBehaviour_Statics::NewProp_CurrentState_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyStateMachineBehaviour_Statics::NewProp_CurrentState_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UMyStateMachineBehaviour_Statics::NewProp_CurrentState = { "CurrentState", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UMyStateMachineBehaviour, CurrentState), Z_Construct_UClass_UMyState_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UMyStateMachineBehaviour_Statics::NewProp_CurrentState_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMyStateMachineBehaviour_Statics::NewProp_CurrentState_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMyStateMachineBehaviour_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMyStateMachineBehaviour_Statics::NewProp_CurrentState,
 	};
@@ -87,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeMyStateMachineBehaviour() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyStateMachineBehaviour, 3133145465);
+	IMPLEMENT_CLASS(UMyStateMachineBehaviour, 920571809);
 	template<> FSM_API UClass* StaticClass<UMyStateMachineBehaviour>()
 	{
 		return UMyStateMachineBehaviour::StaticClass();

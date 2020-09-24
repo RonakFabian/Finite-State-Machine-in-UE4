@@ -10,9 +10,8 @@ void USwitchOffState::Set(AActor* OwningActor, UMyStateMachineBehaviour* State)
     Super::Set(OwningActor, State);
 }
 
-USwitchOffState::USwitchOffState()
-{
-}
+USwitchOffState::USwitchOffState() = default;
+
 
 void USwitchOffState::Enter_State()
 {
@@ -23,9 +22,8 @@ void USwitchOffState::Enter_State()
     if (ensure(Light))
     {
         Light->ToggleVisibility();
-        
-        UE_LOG(LogTemp, Warning, TEXT("OFF"));
 
+        UE_LOG(LogTemp, Warning, TEXT("OFF"));
     }
 }
 
